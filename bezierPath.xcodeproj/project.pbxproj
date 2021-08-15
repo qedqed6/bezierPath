@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D04D800526C830DF00CB725F /* MagicCircle.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04D800426C830DF00CB725F /* MagicCircle.swift */; };
+		D04D800726C831E100CB725F /* CGFloat+radin.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04D800626C831E100CB725F /* CGFloat+radin.swift */; };
+		D04D800926C8351600CB725F /* CAAnimation+StartAndComplete.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04D800826C8351600CB725F /* CAAnimation+StartAndComplete.swift */; };
 		D0E4377826BE7AC100AD4105 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E4377726BE7AC100AD4105 /* AppDelegate.swift */; };
 		D0E4377A26BE7AC100AD4105 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E4377926BE7AC100AD4105 /* SceneDelegate.swift */; };
 		D0E4377C26BE7AC100AD4105 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E4377B26BE7AC100AD4105 /* ViewController.swift */; };
@@ -16,6 +19,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D04D800426C830DF00CB725F /* MagicCircle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagicCircle.swift; sourceTree = "<group>"; };
+		D04D800626C831E100CB725F /* CGFloat+radin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CGFloat+radin.swift"; sourceTree = "<group>"; };
+		D04D800826C8351600CB725F /* CAAnimation+StartAndComplete.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CAAnimation+StartAndComplete.swift"; sourceTree = "<group>"; };
 		D0E4377426BE7AC100AD4105 /* bezierPath.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = bezierPath.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0E4377726BE7AC100AD4105 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D0E4377926BE7AC100AD4105 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -56,6 +62,8 @@
 		D0E4377626BE7AC100AD4105 /* bezierPath */ = {
 			isa = PBXGroup;
 			children = (
+				D04D800626C831E100CB725F /* CGFloat+radin.swift */,
+				D04D800426C830DF00CB725F /* MagicCircle.swift */,
 				D0E4377726BE7AC100AD4105 /* AppDelegate.swift */,
 				D0E4377926BE7AC100AD4105 /* SceneDelegate.swift */,
 				D0E4377B26BE7AC100AD4105 /* ViewController.swift */,
@@ -63,6 +71,7 @@
 				D0E4378026BE7AC200AD4105 /* Assets.xcassets */,
 				D0E4378226BE7AC200AD4105 /* LaunchScreen.storyboard */,
 				D0E4378526BE7AC200AD4105 /* Info.plist */,
+				D04D800826C8351600CB725F /* CAAnimation+StartAndComplete.swift */,
 			);
 			path = bezierPath;
 			sourceTree = "<group>";
@@ -141,6 +150,9 @@
 				D0E4377C26BE7AC100AD4105 /* ViewController.swift in Sources */,
 				D0E4377826BE7AC100AD4105 /* AppDelegate.swift in Sources */,
 				D0E4377A26BE7AC100AD4105 /* SceneDelegate.swift in Sources */,
+				D04D800526C830DF00CB725F /* MagicCircle.swift in Sources */,
+				D04D800926C8351600CB725F /* CAAnimation+StartAndComplete.swift in Sources */,
+				D04D800726C831E100CB725F /* CGFloat+radin.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
